@@ -39,7 +39,7 @@ function Navbar() {
             <div className='navbar-container'>
                 <Link to="/home" className="navbar-logo" onClick={() => {closeMobileMenu(); scrollToTop();}}>
                     <div className='text-with-lines'>
-                        <h1>IVAN LEONTIĆ</h1> 
+                        <h1>VAN LEONTIĆ</h1> 
                         <p>Visual Arts <i className='fa-solid fa-video' /></p> 
                     </div>
                     {/* &nbsp;<i className='fa-solid fa-gamepad' /> */}
