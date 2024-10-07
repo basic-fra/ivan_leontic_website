@@ -1,0 +1,96 @@
+/* About Me Section */
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    min-height: 100vh;
+    background-color: black;
+  }
+  
+  /* Container for content */
+  .about-me-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 30px;
+  }
+  
+  /* Profile Picture Styling */
+  .profile-picture {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image doesn't distort */
+    box-shadow: 0 7px 15px rgba(255, 255, 255, 0.2); /* Optional: Adds a shadow */
+  }
+  
+  /* About Me Text */
+  .about-me-text {
+    flex: 2;
+    color: #ffffff;
+  }
+  
+  .about-me-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .about-me-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Social Links */
+  .social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .social-links a {
+    font-size: 2rem;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #ffffff; /* Change this to your desired hover color */
+  }
+  
+  /* RESPONSIVE DESIGN */
+  
+  /* For mobile devices */
+  @media (max-width: 768px) {
+    .about-me-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .profile-picture img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .about-me-text h2 {
+      font-size: 1.75rem;
+    }
+  
+    .about-me-text p {
+      font-size: 1rem;
+    }
+  
+    .social-links a {
+      font-size: 1.5rem;
+    }
+  }
+  

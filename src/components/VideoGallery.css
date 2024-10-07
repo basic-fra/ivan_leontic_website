@@ -1,0 +1,208 @@
+/* .video-wrap {
+  background-color: black;
+}
+
+.gallery-header {
+  color: #fff;
+  text-align: left;
+  padding-left: 7.5rem;
+  padding-top: 3rem;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px; 
+  padding: 120px;
+  padding-top: 20px;
+}
+
+.video-container {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (max-width: 1024px) {
+  .gallery-header {
+    font-size: 30px;
+    padding-left: 4.5rem;
+  }
+  .video-grid {
+    padding: 70px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 426px) {
+  .gallery-header {
+    font-size: 25px;
+    padding-left: 2rem;
+  }
+
+  .video-grid {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .gallery-header {
+    font-size: 20px;
+  }
+} */
+
+.video-wrap {
+  background-color: black;
+}
+
+.gallery-header {
+  color: #fff;
+  text-align: left;
+  padding-left: 7rem;
+  padding-top: 2.5rem;
+  font-size: 1.8rem;
+}
+
+.video-grid {
+  display: flex; /* Use Flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+  justify-content: space-between; 
+  padding: 0 6rem; /* Add padding around the grid */
+  padding-bottom: 3rem;
+}
+
+.video-container {
+  flex: 0 1 calc(33.33% - 10px); /* Set the width to one-third of the container minus the gap */
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  padding: 12px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+  margin-top: -30px; /* Space above the thumbnail */
+  margin-bottom: -30px; /* Space below the thumbnail */
+}
+
+.thumbnail:hover {
+  transform: scale(1.10);
+}
+
+.video-popup {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.video-popup-content {
+  position: relative;
+  width: 60%;
+  height: 80%;
+  max-width: 900px;
+}
+
+.close-button {
+  position: absolute;
+  top: 11px;
+  right: 6px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.close-button:hover {
+  background: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .video-container {
+    flex: 0 1 calc(50% - 10px); /* Two columns for medium screens */
+  }
+
+  .video-grid {
+    padding: 0 4rem;
+  }
+
+  .video-popup-content {
+    width: 60%;
+    height: 50%;
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-grid {
+    padding: 0 4rem;
+  }
+
+  .gallery-header {
+    padding-left: 5rem;
+    font-size: 1.6rem;
+  }
+
+  .video-container {
+    flex: 0 1 100%; /* One column for small screens */
+  }
+
+  .video-popup-content {
+    height: 40%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 426px) {
+  .video-grid {
+    padding: 2rem;
+  }
+
+  .gallery-header {
+    padding-left: 3rem;
+    font-size: 1.8rem;
+  }
+
+  .thumbnail {
+    padding-bottom: 10px;
+  }
+
+  .thumbnail:hover {
+    transform: none; /* Remove hover effect for small devices for better user experience */
+  }
+
+  .video-popup-content {
+    height: 40%;
+    width: 90%;
+  }
+}
+
+
+
+  

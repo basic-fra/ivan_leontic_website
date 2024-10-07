@@ -1,0 +1,114 @@
+/* Ensure the section takes full width */
+h2 {
+  margin-bottom: 10px;
+  color: rgba(236, 236, 236, 1);
+  font-size: 30px;
+}
+.contact-section {
+    min-height: 88.5vh;
+    background-color: black;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 20px;
+  }
+  
+  /* Container for form elements */
+  .contact-container {
+    display: flex;
+    flex-direction: column; /* Align children in a column */
+    max-width: 600px; /* Set a max-width for better readability */
+    width: 100%;
+  }
+
+  .contact-container input:focus,
+.contact-container textarea:focus {
+  box-shadow: 0 0 8px 2px rgba(199, 199, 199, 0.8);
+  outline: none;
+}
+  
+  /* Style each form group */
+  .form-group {
+    margin-bottom: 15px; /* Space between each form element */
+  }
+  
+  /* Style labels and inputs */
+  label {
+    display: block;
+    margin-bottom: 5px; /* Space between label and input */
+  }
+  
+  input,
+  textarea {
+    width: 90%; /* Full width */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding in element's total width and height */
+    border-radius: 12px;
+  }
+  
+  textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 100px; /* Minimum height for the textarea */
+  }
+  
+  /* Style the submit button */
+  .btn-contact {
+    padding: 10px 15px;
+    border: none;
+    background:linear-gradient(180deg, rgba(6,6,6,1) 0%, rgb(29, 29, 29) 100%);
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 12px;
+    border: solid #fff;
+  }
+  
+  .btn-contact:hover {
+    background:#fff;
+    color: black; 
+    border: solid rgb(0, 0, 0);
+    box-shadow: 0 0 8px 2px rgba(199, 199, 199, 0.8);
+  }
+
+  .cloud {
+    position: fixed;
+    bottom: 20px ;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: rgba(43,42,71,255);
+    color: #fff ;
+    border-radius: 5px ;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+
+  /* Media Queries for smaller devices */
+@media screen and (max-width: 768px) {
+  .contact-container {
+    max-width: 90%; /* Allow the form to take more width on smaller screens */
+  }
+
+  .cloud {
+    bottom: 10px; /* Adjust notification for smaller screens */
+    right: 10px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-container {
+    max-width: 100%;
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .cloud {
+    padding: 5px 10px; /* Reduce padding in notification */
+    font-size: 14px;
+  }
+}
+  
