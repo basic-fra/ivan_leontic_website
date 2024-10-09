@@ -8,26 +8,26 @@ const Services = () => {
     // Array of content for each "slide"
     const content = [
       {
-        largeImage: 'images/directL.jpg', 
-        smallImage: 'images/directS.jpg',
+        largeImage: '/images/directL.jpg', 
+        smallImage: '/images/directS.jpg',
         header: 'Directing',
         text: 'This is the description for the first content. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum'
       },
       {
-        largeImage: 'images/vidEditL.jpg', 
-        smallImage: 'images/VidEditS.jpg',
+        largeImage: '/images/vidEditL.jpg', 
+        smallImage: '/images/VidEditS.jpg',
         header: 'Video Editing',
         text: 'This is the description for the second content. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum'
       },
       {
-        largeImage: 'images/colorGradL.jpg', 
-        smallImage: 'images/colorGradS.jpg',
+        largeImage: '/images/colorGradL.jpg', 
+        smallImage: '/images/colorGradS.jpg',
         header: 'Color Grading',
         text: 'This is the description for the third content. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum'
       },
       {
-        largeImage: 'images/VFXL.jpg', 
-        smallImage: 'images/VFXS.jpg',
+        largeImage: '/images/VFXL.jpg', 
+        smallImage: '/images/VFXS.jpg',
         header: 'Post-Production & VFX',
         text: 'This is the description for the fourth content. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum'
       },

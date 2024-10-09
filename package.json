@@ -1,5 +1,5 @@
 {
-  "name": "react-website-yt-1",
+  "name": "ivanleontic-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,14 +12,17 @@
     "react-dom": "^18.3.1",
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.26.2",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4",
+    "homepage": "https://basic-fra.github.io/ivan_leontic_website"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^7.25.7"
+    "@babel/plugin-transform-private-property-in-object": "^7.25.7",
+    "gh-pages": "^6.1.1"
   }
 }

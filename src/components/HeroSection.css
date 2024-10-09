@@ -23,49 +23,6 @@ video {
     margin-top: 100px;
 }
 
-/* glowing-text.css */
-@keyframes glow {
-    0% {
-        text-shadow: 
-            0 0 5px #fff, 
-            0 0 10px #fff, 
-            0 0 20px #f0f, 
-            0 0 40px #f0f, 
-            0 0 80px #f0f, 
-            0 0 120px #f0f;
-    }
-    50% {
-        text-shadow: 
-            0 0 10px #fff, 
-            0 0 20px #fff, 
-            0 0 30px #f0f, 
-            0 0 50px #f0f, 
-            0 0 100px #f0f, 
-            0 0 150px #f0f;
-    }
-    100% {
-        text-shadow: 
-            0 0 5px #fff, 
-            0 0 10px #fff, 
-            0 0 20px #f0f, 
-            0 0 40px #f0f, 
-            0 0 80px #f0f, 
-            0 0 120px #f0f;
-    }
-}
-
-.glowing-text {
-    text-shadow: 
-        0 0 5px #fff, 
-        0 0 10px #fff, 
-        0 0 20px #f0f, 
-        0 0 40px #f0f, 
-        0 0 80px #f0f, 
-        0 0 120px #f0f;
-    animation: glow 2s ease-in-out infinite;
-}
-
-
 .hero-btns {
     margin-top: 32px;
 }
@@ -79,11 +36,19 @@ video {
 }
 
 @media screen and (max-width: 960px){
+    .hero-container {
+        height: 70vh;
+    }
+
     .hero-container > h1 {
         color: #fff;
         font-size: 70px;
-        margin-top: -150px;
-    
+        /* margin-top: -150px; */
+    }
+
+    video {
+        width: 100%;
+        height: 70%;
     }
 }
 
@@ -98,14 +63,21 @@ video {
     .hero-container > p {
         font-size: 30px;
     }
-
-    .btn-mobile {
-        display: block;
-        text-decoration: none;
-    }
-
-    .btn {
-        width: 100%;
-    }
     
+}
+
+@media screen and (max-width: 426px) {
+    .hero-container {
+        height: 60vh;
+    } 
+
+    .hero-container > h1 {
+        font-size: 40px;
+    }
+
+    video {
+        width: 100%;
+        height: 60%;
+    }
+
 }
