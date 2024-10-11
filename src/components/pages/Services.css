@@ -141,7 +141,6 @@
     }
 
     .small-image img {
-      width: 100%;
       transform: translate(30%,-10%);
     }
 
@@ -186,7 +185,6 @@
     }
   
     .small-image img{
-      width: 100%; 
       transform: translate(60%, -20%);
     }
 
