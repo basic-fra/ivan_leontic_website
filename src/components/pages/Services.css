@@ -275,7 +275,6 @@
     }
   
     .small-image img{
-      width: 30%; 
       bottom: 0;
       right: 0;
       transform: translate(-20%, 30%);
@@ -327,12 +326,12 @@
     transform: translate(5%,20%);
   }
   .small-image img {
-    width: 100%;
     transform: translate(130%,-10%);
   }
 
   .small-image.slide-in {
-    left: 80px;
+    width: 28%;
+    left: 90px;
   }
 
   .button-section {
