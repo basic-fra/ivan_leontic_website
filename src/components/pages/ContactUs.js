@@ -8,8 +8,26 @@ const Contact = () => {
 
     const [showNotification, setShowNotification] = useState(false);
 
+    const [errorMessage, setErrorMessage] = useState(''); // State for error message
+
     const sendEmail = (e) => {
       e.preventDefault();
+
+    const message = form.current.message.value.trim(); // Get trimmed message value
+      
+      // Check if the message is empty or only spaces
+      if (!message) {
+        setErrorMessage('Message cannot consist consist only of spaces.'); // Set error message
+
+        // Clear error message after 3 seconds
+        setTimeout(() => {
+            setErrorMessage(''); // Reset error message state
+        }, 3000);
+
+        return; // Prevent form submission
+    } else {
+        setErrorMessage(''); // Clear error message if valid
+    }
   
       emailjs
       .sendForm('service_ai9fpem', 
@@ -63,6 +81,7 @@ const Contact = () => {
                       placeholder='Message...'
                       cols='30' rows='10' required></textarea>
             <button type='submit' className='btn-contact'>Send <i className="fa-solid fa-paper-plane" /></button>
+            {errorMessage && <div className="error-message">{errorMessage}</div>}
           </form>
           {showNotification && (
             <div className='cloud'>

@@ -82,6 +82,15 @@ h2 {
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
   }
 
+  .error-message {
+    border-radius: 8px;
+    width: 55%;
+    background-color: #fff;
+    color: red; /* Text color for the error message */
+    padding: 5px; /* Space above the error message */
+    font-size: 1rem; /* Font size */
+}
+
   /* Media Queries for smaller devices */
 @media screen and (max-width: 768px) {
   .contact-container {

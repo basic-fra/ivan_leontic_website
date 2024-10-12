@@ -42,15 +42,33 @@ import './VideoGallery.css';
 const VideoGallery = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
   const videoIds = [
-    'ketN3hDU71Q',
-    'ketN3hDU71Q',
-    'ketN3hDU71Q',
-    'ketN3hDU71Q',
-    'ketN3hDU71Q',
-    'ketN3hDU71Q',
-    'ketN3hDU71Q',
-    'ketN3hDU71Q',
-    'ketN3hDU71Q'
+    '4oCorKgBIz8', //kukus
+    'ketN3hDU71Q', //lisica
+    '6BxjsDqPReE', //ttm
+
+    'Tkc9Pm3UKA8', //grse suza
+    'Tn5-v1sjG_k', //lisica 2
+    'PtWhbq9BDFQ', //dana alarmantno
+
+    'rDR60DJzZDQ', //dani atlanta
+    'f8DiEGkgOxQ', //lkby
+    'D61WjqGlmzk', //dana nostalgija
+
+    'hCFpt1mkkLk', //dani 93
+    'evQm_rcboJM', //rizik
+    'Bj_aL6Lo1qs', //kedzi
+
+    'SYqQfB6psVg', //skupa bol
+    'RN6c5eufGbQ', //nataliya
+    'fobZeBh1S7w', //pirane
+
+    'eRGqOvocjCY', //zalazak
+    'xUlC5mjp24Q', //zecica
+    '7gqwesvoxQI', // kao lav
+
+    'Nc9Gr6ymygc', //palamida
+    '27_e_dbN2js', //karambol
+    'RC0gmvbLecU', //samo za nas
   ];
 
   const handleVideoClick = (id) => {
