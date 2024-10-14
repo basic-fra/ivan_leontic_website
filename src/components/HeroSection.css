@@ -35,6 +35,12 @@ video {
     margin-left: 4px;
 }
 
+@media screen and (max-width: 1440px){
+    .hero-container {
+        height: 90vh;
+    }
+}
+
 @media screen and (max-width: 960px){
     .hero-container {
         height: 70vh;
