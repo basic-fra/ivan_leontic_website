@@ -59,7 +59,7 @@ video {
 
 @media screen and (max-width: 960px){
     .hero-container {
-        height: 58vh;
+        height: 56vh;
     }
 
     .hero-container > h1 {
@@ -90,7 +90,7 @@ video {
 
 @media screen and (max-width: 426px) {
     .hero-container {
-        height: 38vh;
+        height: 35vh;
     } 
 
     .hero-container > h1 {
