@@ -68,6 +68,7 @@
 
 .video-wrap {
   background-color: black;
+  padding-bottom: 1rem;
 }
 
 .gallery-header {
@@ -160,6 +161,10 @@
 }
 
 @media (max-width: 768px) {
+  .video-wrap {
+    padding-bottom: 2rem;
+  }
+
   .video-grid {
     padding: 0 4rem;
   }

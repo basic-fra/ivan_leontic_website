@@ -21,9 +21,7 @@
   }
 
   .text-with-lines {
-    color: #ffffff;/* Adjust space between text and lines */
-    /* font-family: "Gill Sans", sans-serif; */
-    /*ADDED:*/
+    color: #ffffff;
     font-size: medium;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 4px;
@@ -41,7 +39,8 @@
   }
   /*ADDED:*/
   .text-with-lines:hover {
-    color: #626262; /* Neon pink or another accent color on hover */
+    /* color: #626262; */
+    color: #ffffff;
   }
   
   /* Optional underline effect */
@@ -50,7 +49,7 @@
     position: absolute;
     width: 0%;
     height: 2px;
-    background: #626262; /* Neon pink underline effect */
+    background: #c69393; 
     bottom: -5px;
     left: 0;
     transition: width 0.4s ease;
@@ -71,11 +70,6 @@
     display: flex;
     align-items: center;
   }
-
-  /* .text-with-lines > i {
-    font-size: 30px;
-    color: #ffffff;
-  } */
   
   .nav-menu {
     display: grid;
@@ -148,7 +142,6 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      /* height: 90vh; */
       position: absolute;
       top: 80px;
       left: -100%;
