@@ -122,6 +122,7 @@
   @media(max-width: 376px) {
     .text-with-lines {
       margin-left: -30px;
+      margin-bottom: -10px;
     }
   } 
 
@@ -136,6 +137,11 @@
 
     .NavbarItems {
       position: relative;
+    }
+
+    .text-with-lines {
+      margin-left: -20px;
+      margin-bottom: -10px;
     }
   
     .nav-menu {
