@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Website
+A website created as a concept model for a friend who specializes in video editing and shooting. The website still needs to be adjusted to meet his requirements and needs.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Features**
+- Navigation bar: his name and logo, sections: home, services, about and contact.
+- Video loop (latest project)
+- Photo gallery section
+- Music Videos section
+- Footer
+- Responsive
 
 ## Available Scripts
 
@@ -11,60 +18,27 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Link: [https://ivanleontic.netlify.app/]
 
-### `npm run build` fails to minify
+### **Screenshots**
+![image](https://github.com/user-attachments/assets/860c5a60-dac7-4be0-a48e-d18d93b616b2)
+![image](https://github.com/user-attachments/assets/f1a1ddf8-0484-4a56-8e5c-9331a55721cf)
+![image](https://github.com/user-attachments/assets/49f29a9d-5fa7-455d-8161-76e0ec506cfe)
+![image](https://github.com/user-attachments/assets/1783bb43-6870-444d-8293-487ca40f63e8)
+![image](https://github.com/user-attachments/assets/3733f825-df38-4422-a045-8db30bea04ed)
+![image](https://github.com/user-attachments/assets/464fc4ce-7c58-4e40-aad1-819427ea9773)
+![image](https://github.com/user-attachments/assets/ac7204c0-224e-4a02-bd59-bf1a839a1804)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
+
